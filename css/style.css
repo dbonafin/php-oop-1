@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightseagreen;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+h4 {
+    font-size: 22px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.movie-cards-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.movie-card {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid burlywood;
+}
